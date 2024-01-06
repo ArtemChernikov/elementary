@@ -5,14 +5,12 @@ public class TwoNumberSum {
         int l = 0, r = array.length - 1;
 
         while (l < r) {
-
             int currentSum = array[l] + array[r];
-
             if (currentSum == target) {
                 return new int[]{l, r};
             } else if (currentSum > target) {
                 r--;
-            } else if (currentSum < target) {
+            } else {
                 l++;
             }
         }
