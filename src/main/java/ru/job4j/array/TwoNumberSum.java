@@ -2,7 +2,8 @@ package ru.job4j.array;
 
 public class TwoNumberSum {
     public static int[] getIndexes(int[] array, int target) {
-        int l = 0, r = array.length - 1;
+        int l = 0;
+        int r = array.length - 1;
 
         while (l < r) {
             int currentSum = array[l] + array[r];
