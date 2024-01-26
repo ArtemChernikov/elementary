@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
 public class DivideBySixTest {
 
     @Test
-    public void whenNumberDivideBy6() {
+    public void whenNumberDivideBy6(){
         int in = 24;
         String result = DivideBySix.checkNumber(in);
         String expected = "Исходное число делится на 6.";
